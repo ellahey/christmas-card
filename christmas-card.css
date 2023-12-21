@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 #title {
-  color: #aa0000;
+  color: #355E3B;
   font-family: "Great Vibes", cursive;
-  font-weight: 600;
+  font-weight: 900;
   font-style: italic;
   font-size: 70px;
   display: block;
@@ -13,7 +13,8 @@
 body {
   background-size: cover;
   background-attachment: fixed;
-  background-image: url("https://cdn.pixabay.com/photo/2022/12/04/10/13/snow-7634083_640.jpg");
+  background-color: white;
+  background-image: url("https://cdn.pixabay.com/photo/2022/12/04/10/13/snow-7634083_640.jpg"); 
 }
 
 h2 {
@@ -89,7 +90,7 @@ h2 {
   height: 100%;
   background: black;
   background-color: blueviolet;
-  color: #aa0000;
+  color: #355E3B;
   backface-visibility: hidden;
   text-align: center;
   transform: rotateY(180deg);
@@ -111,7 +112,7 @@ h2 {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   color: black;
-  background-color: ivory;
+  background-color: white;
   text-decoration: none;
   position: relative;
   top: 450px;
