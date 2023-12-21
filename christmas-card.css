@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+#title {
+  color: #aa0000;
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 70px;
+  display: block;
+  text-align: center;
+}
+
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("https://cdn.pixabay.com/photo/2022/12/04/10/13/snow-7634083_640.jpg");
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  perspective: 1000px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 100%;
+  position: relative;
+  border-radius: 16px;
+  cursor: pointer;
+  text-align: center;
+  height: auto;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+.front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.front-image {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 16px;
+  margin: 0;
+}
+
+.back-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  border-radius: 16px;
+  cursor: pointer;
+  text-align: center;
+  height: auto;
+  transform-style: preserve-3d;
+  background: ivory;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.back {
+  font-family: "Garamond", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 30px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  background-color: blueviolet;
+  color: #aa0000;
+  backface-visibility: hidden;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+.evergreen {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  margin-left: 60px;
+}
+
+.flipCard {
+  transform: rotateY(180deg);
+}
+
+.credits-container a {
+  padding: 0.4em;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: ivory;
+  text-decoration: none;
+  position: relative;
+  top: 450px;
+  left: 1280px;
+  border-radius: 16px;
+  border: 2px solid #04aa6d;
+}
+
+#pause {
+  background-color: white;
+  border-radius: 16px;
+  color: black;
+  border: 2px solid #04aa6d;
+  position: relative;
+  top: 350px;
+  left: 1280px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    position: relative;
+    perspective: 100px;
+    align-items: stretch;
+  }
+  .main-container {
+    width: 28%;
+  }
+}

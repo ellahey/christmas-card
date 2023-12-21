@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="christmas-card.css" />
+    <title>Christmas card</title>
+    <h1 tabindex="0" id="title">Merry Christmas</h1>
+  </head>
+  <body>
+    <div class="credits-container">
+      <a href="credits.html">Credits</a>
+    </div>
+    <div class="main-container">
+      <div class="card" id="card">
+        <div class="front">
+          <img
+            class="front-image"
+            src="https://images.unsplash.com/photo-1606589122601-c20330ddbd90?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjB8fHxlbnwwfHx8fHw%3D"
+            alt="front-image"
+          />
+        </div>
+        <div class="back" id="back">
+          <div class="back-container">
+            <p>
+              Wishing you a joyful Christmas <br />
+              and a Happy New Year.
+            </p>
+            <p id="sign-off">
+              With love, from <br />
+              Ernestine, Hans, Oliver, and Stella
+            </p>
+            <img
+              class="evergreen"
+              src="548951052_max_transparent.png"
+              alt="evergreen"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" id="pause" onClick="toggleAudio()">
+      Pause audio
+    </button>
+    <audio
+      id="music"
+      src="carol-of-the-bells.mp3"
+      preload="auto"
+      loop="loop"
+    ></audio>
+  </body>
+  <script src="christmas-card.js"></script>
+</html>
