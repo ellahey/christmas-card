@@ -33,6 +33,7 @@ h2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .card {
@@ -81,7 +82,7 @@ h2 {
 }
 
 .back {
-  font-family: "Garamond", sans-serif;
+  font-family: "Great Vibes", cursive;
   font-weight: 600;
   font-style: italic;
   font-size: 30px;
