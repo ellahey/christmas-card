@@ -117,20 +117,25 @@ h2 {
   background-color: white;
   text-decoration: none;
   position: relative;
-  top: 450px;
-  left: 1000px;
+  /* top: 450px;
+  left: 1000px; */
   border-radius: 16px;
-  border: 2px solid #04aa6d;
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+  width: 50px;
+  border: 3px solid #04aa6d;
 }
 
 #pause {
   background-color: white;
-  border-radius: 16px;
   color: black;
-  border: 2px solid #04aa6d;
-  position: relative;
-  top: 350px;
-  left: 1000px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 80px;
+  border: 3px solid #04aa6d;
 }
 
  @media (min-width: 768px) { 
