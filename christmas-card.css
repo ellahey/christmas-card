@@ -131,7 +131,8 @@ h2 {
   left: 1280px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 320px) and (max-width: 999px) {}
+/* @media (min-width: 768px) { */
   .card {
     display: flex;
     flex-direction: row;
