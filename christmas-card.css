@@ -23,7 +23,9 @@ h2 {
 }
 
 .main-container {
-  display: flex;
+  display: -webkit-flex 0 1 auto;
+  display: -webkit-box 0 1 auto;
+  -webkit-box-align: center;
   flex-direction: column;
   position: relative;
   perspective: 1000px;
